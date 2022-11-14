@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Meta Datos -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Eddy Cespedes" />
+    <meta name="description" content="Portafolio Web de Eddy Cespedes" />
+    <meta name="keywords" content="HTML, CSS, Bootstrap React" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Titulo -->
+    <title>Eddy Cespedes | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Iconos de Bootstrap -->
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo.png" alt="Logo Pagina" width="50" />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active link-light" aria-current="page" href="#"
+                >Sobre mi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- seccion hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal">
+        <img
+          class="imagen-perfil img-fluid"
+          src="images/foto-eddy.svg"
+          alt="Foto de Eddy"
+        />
+        <h1>Hola, soy <span>Eddy</span> Cespedes</h1>
+        <h2>Desarrollador <span>Web</span></h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="images/hero-inferior.svg"
+          alt="Logos de Desarrollo web"
+        />
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Sobre mi</h2>
+        <p class="seccion-texto">
+            Técnico programador con conocimientos en desarrollo web en Javascript, mi foco está siempre en buscar las soluciones más  eficientes, para lograr satisfacer las necesidades y preferencias de los clientes. 
+        </p>
+      </div>
+    </section>
+
+    <!-- BottStrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
